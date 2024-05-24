@@ -1,0 +1,9 @@
+﻿<!-- Views/JobSearch/Search.cshtml -->
+@model JobSearchPortal.DTOs.SearchParameters
+
+<h1>Job Search</h1>
+<form asp-action="Search" method="post">
+    <!-- Add search fields -->
+    <input type="text" name="Keywords" placeholder="Keywords" />
+    <button type="submit">Search</button>
+</form>

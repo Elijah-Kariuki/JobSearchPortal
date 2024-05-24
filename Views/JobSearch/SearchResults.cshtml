@@ -1,0 +1,16 @@
+﻿<!-- Views/JobSearch/SearchResults.cshtml -->
+@model JobSearchPortal.DTOs.USAJobsResponse
+
+<h1>Search Results</h1>
+<ul>
+    @foreach (var item in Model.SearchResult.SearchResultItems)
+    {
+        var job = item.MatchedObjectDescriptor;
+        <li>
+            <h2>@job.PositionTitle</h2>
+            <p>@job.OrganizationName</p>
+            <p>@job.QualificationSummary</p>
+            <p><a href="@job.PositionURI" target="_blank">@job.PositionURI</a></p>
+        </li>
+    }
+</ul>
