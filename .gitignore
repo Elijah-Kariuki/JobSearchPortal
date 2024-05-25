@@ -7,6 +7,9 @@
 
 # Configuration files
 appsettings.json
+appsettings.Development.json
+appsettings.Production.json
+appsettings.Staging.json
 
 # Mono Auto Generated Files
 mono_crash.*
@@ -61,3 +64,71 @@ Temporary Items
 
 # Visual Studio
 .vs/
+.vscode/
+.vscode/*
+.vscode/settings.json
+.vscode/launch.json
+.vscode/tasks.json
+.vscode/extensions.json
+
+# Rider
+.idea/
+.idea/*
+.idea_modules/
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/usage.statistics.xml
+.idea/dictionaries
+.idea/jsLibraryMappings.xml
+.idea/libraries
+
+# DotNet build directories
+/bin/
+/obj/
+/publish/
+/out/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# JetBrains Rider
+.idea/
+.idea/*
+
+# User-specific files (IDE)
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# NPM Packages
+node_modules/
+
+# Yarn integrity files
+.yarn-integrity
+.yarnrc
+
+# Compiled binary directories
+bin/
+obj/
+
+# Persistent session settings
+.vscode/
+
+# Local history for JetBrains Rider
+.idea
+
+# Miscellaneous
+*.log
+*.lock
