@@ -5,19 +5,6 @@
 *.userosscache
 *.sln.docstates
 
-# Ignore build output and temporary files
-bin/
-obj/
-*.exe
-*.dll
-*.pdb
-*.cache
-*.nuget.g.props
-*.nuget.dgspec.json
-*.nuget.cache
-*.sourcelink.json
-
-
 # Configuration files
 appsettings.json
 
